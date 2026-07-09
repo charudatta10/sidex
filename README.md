@@ -66,23 +66,18 @@ RAM savings are most tested on macOS, WKWebView is shared with Safari. On Window
 ```bash
 git clone https://github.com/Sidenai/sidex.git
 cd sidex
-npm install
-npm run tauri dev
+bun install
+bun run tauri dev
 ```
 
 ### Build from Source
 
 ```bash
-npm install
+bun install
 
-# macOS / Linux
-NODE_OPTIONS="--max-old-space-size=12288" npm run build
+bun run build
 
-# Windows (PowerShell)
-$env:NODE_OPTIONS="--max-old-space-size=12288"
-npm run build
-
-npx tauri build
+bunx tauri build
 ```
 
 First build takes 5–10 minutes (Rust compile time). Pre-built binaries are not distributed yet.
