@@ -11,6 +11,8 @@
   <img src="https://img.shields.io/badge/Built_with-Tauri_2-FFC131?style=for-the-badge&logo=tauri&logoColor=white" alt="Built with Tauri">
 </p>
 
+![Version](https://img.shields.io/github/v/release/charudatta10/sidex)
+
 <br>
 
 <p align="center">
