@@ -1,6 +1,11 @@
 <h1 align="center">SideX</h1>
 
 <p align="center">
+  <img src="assets/cover.png" alt="sidex" width="800"/>
+</p>
+
+
+<p align="center">
   <strong>VSCode's workbench, without Electron.</strong>
 </p>
 
